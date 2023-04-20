@@ -191,4 +191,4 @@ def redirect_to_root(path: str) -> RedirectResponse:
     :param path: The path of the request.
     :return: A RedirectResponse object redirecting to the root path.
     """
-    return RedirectResponse("/")
+    return RedirectResponse(API_DOCS_URL)
